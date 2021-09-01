@@ -1,0 +1,1194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="./assets/css/grid.css">
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="app">
+ 
+        <header class="header">
+            
+            <div class="grid wide">
+                <nav class="header__navbar hide-on-mobile-tablet">
+                    <ul class="header__navbar-list">
+                        <li class="header__navbar-item header__navbar-item--qr header__navbar-item--separate">
+                            Vào cửa hàng trên ứng dụng Sneaker_Shop
+                            <div class="header__qr">
+                                <img src="./assets/img/QR_code.png" alt="QR Code" class="qr__img-qr">
+                                <div class="header__qr-apps">
+                                    <a href="#" class="header__qr-link">
+                                        <img src="./assets/img/appstore.png" alt="App Store" class="header__qr-dowload-img">
+                                    </a>
+                                    <a href="#" class="header__qr-link">
+                                        <img src="./assets/img/ggplay.png" alt="Google play" class="header__qr-dowload-img">
+                                    </a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="header__navbar-item">
+                            <span class="header__navbar-title--no-pointer">Kết nối</span>
+                            <a href="#" class="header__navbar-icon-link">
+                                <i class="header__navbar-icon fab fa-facebook"></i>
+                            </a>
+                            <a href="#" class="header__navbar-icon-link">
+                                <i class="header__navbar-icon fab fa-instagram"></i>
+                            </a>
+                        </li>
+                    </ul>
+    
+                    <ul class="header__navbar-list">
+                        <li class="header__navbar-item header__navbar-item--hover-notify">
+                            <a href="#" class="header__navbar-icon-link  ">
+                                <i class="header__navbar-icon fas fa-bell"></i>
+                                Thông báo
+                            </a>
+                            <div class="header__notify">
+                                <header class="header__notify-header">
+                                    <h3>Thông báo mới nhận</h3>
+                                </header>
+                                <ul class="header__notify-list">
+                                    <li class="header__notify-item header__notify-item-readed">
+                                        <a href="#" class="header_notify-link">
+                                            <img src="https://cf.shopee.vn/file/6cb80329bdf7c503554371b6f29a2ab4" alt="" class="header__notify-img">
+                                            <div class="header__notify-info">
+                                                <span class="header_notify-name">
+                                                    NIKE AIR MAX INFINITYBQ3999-002
+                                                </span>
+                                                <span class="header__notify-description">
+                                                    Thiết kế thân lưới tạo cảm giác thông thoáng cho bàn chân
+                                                </span>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class="header__notify-item">
+                                        <a href="#" class="header_notify-link">
+                                            <img src="https://cf.shopee.vn/file/6cb80329bdf7c503554371b6f29a2ab4" alt="" class="header__notify-img">
+                                            <div class="header__notify-info">
+                                                <span class="header_notify-name">
+                                                    NIKE AIR MAX INFINITYBQ3999-002
+                                                </span>
+                                                <span class="header__notify-description">
+                                                    Thiết kế thân lưới tạo cảm giác thông thoáng cho bàn chân
+                                                </span>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class="header__notify-item">
+                                        <a href="#" class="header_notify-link">
+                                            <img src="https://cf.shopee.vn/file/6cb80329bdf7c503554371b6f29a2ab4" alt="" class="header__notify-img">
+                                            <div class="header__notify-info">
+                                                <span class="header_notify-name">
+                                                    NIKE AIR MAX INFINITYBQ3999-002
+                                                </span>
+                                                <span class="header__notify-description">
+                                                    Thiết kế thân lưới tạo cảm giác thông thoáng cho bàn chân
+                                                </span>
+                                            </div>
+                                        </a>
+                                    </li>
+                                </ul>
+                                <footer class="header__notify-footer">
+                                    <a href="#" class="header__notify-footer-btn">Xem tất cả </a>
+                                </footer>
+                            </div>
+                        </li>
+                        <li class="header__navbar-item">
+                            <a href="#" class="header__navbar-icon-link">
+                                <i class="header__navbar-icon fas fa-question"></i>
+                                Trợ giúp
+                            </a>
+                        </li>
+                        <!-- <li class="header__navbar-item header__navbar-item--bold header__navbar-item--separate">Đăng ký </li>
+                        <li class="header__navbar-item header__navbar-item--bold">Đăng nhập</li> -->
+                        <li class="header__navbar-item header__navbar-user">
+                            <img class="header__navbar-avatar" src="./assets/img/avatar.png" alt="">
+                            <span class="header__navbar-user-name">Huynh Nhut Hao</span>
+                            <ul class="header__navbar-user-menu">
+                                <li class="header__navbar-user-item">
+                                    <a href="#"> Tài khoản của tôi</a>
+                                </li>
+                                <li class="header__navbar-user-item">
+                                    <a href="#">Địa chỉ của tôi</a>
+                                </li>
+                                <li class="header__navbar-user-item">
+                                    <a href="#">Đơn mua</a>
+                                </li>
+                                <li class="header__navbar-user-item header__navbar-user-item--separate">
+                                    <a href="#">Đăng xuất</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
+                
+                <!-- header with search -->
+                <div class="header-search">
+                    <label for="mobile-search-checkbox" class="header__mobile-search">
+                        <i class="header__mobile-search-icon far fa-search"></i>
+                    </label>
+                    <div class="header-search__logo">
+                        <a href="/" class="header-search__logo-link">
+                            <img src="./assets/img/logo.jpg" alt="logo" class="header-search__logo-change" >
+                        </a>
+                    </div>
+                    <input type="checkbox" hidden class="header__search-checkbox" id="mobile-search-checkbox">
+                    <div class="header__search ">
+                        <div class="header__search-input-wrap">
+                            <input type="text" class="header__search-input" placeholder="Nhập thông tin tìm kiếm " >
+                            <!-- Search history -->
+                            <div class="header__search-history">
+                                <h3 class="header__search-history-h3">Lịch sử tìm kiếm</h3>
+                                <ul class="header__search-history-list">
+                                    <li class="header__search-history-list-item">
+                                        <a href="#">Air Mag</a>
+                                    </li>
+                                    <li class="header__search-history-list-item">
+                                        <a href="#">Jordan 1 UNC</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="header__search-selection">
+                            <span class="header__search-selection-label">
+                                Trong Shop
+                                <i class="header__search-selection-icon fas fa-angle-down"></i>
+                                <ul class="header__search-option">
+                                    <li class="header__search-option-item header__search-option-item--active">
+                                        <span>Trong shop</span>
+                                        <i class="header__search-option-item-icon e fas fa-check"></i>
+                                    </li>
+                                    <li class="header__search-option-item">
+                                        <span>Ngoài shop</span>
+                                        <i class="header__search-option-item-icon fas fa-check"></i>
+                                    </li>
+                                </ul>
+                            </span>
+                        </div>
+                        <button class="header__search-btn">
+                            <i class="header__search-btn-icon far fa-search"></i>
+                        </button>
+                    </div>
+                    <!-- Cart layout -->
+                    <div class="header-search__cart">
+                        <div class="header-search__cart-wrap-icon">
+                            <i class="header-search__cart-icon fal fa-shopping-cart"></i>
+                            <span class="header-search__cart-amount">3</span>
+                            <!-- Empty Cart :header-search__cart--empty-cart -->
+                            <div class="header-search__cart-list  ">
+                                <img class="header-search__cart-list-icon--empty-cart" src="./assets/img/empty_cart.jpg" alt="empty cart">
+                                <span class="header-search__cart-list-msg--empty-cart">
+                                    Chưa có sản phẩm
+                                </span>
+                                <div class="header__cart-heading">
+                                    Sản phẩm đã thêm 
+                                </div>
+                                <ul class="header__cart-list">
+                                    <!-- cart item -->
+                                    <li class="header__cart-item">
+                                        <img class="header__cart-img" src="./assets/img/airmag.png" alt="Air Mag">
+                                        <div class="header__cart-item-info">
+                                            <div class="header__cart-item-info-head">
+                                                <h5 class="header__cart-item-name">
+                                                    Air Mag 
+                                                </h5>
+                                                <div class="header__cart-item-wrap">
+                                                    <span class="header__cart-item-price">1.300.000.000 đ</span>
+                                                    <span class="header__cart-item-multily">x</span>
+                                                    <span class="header__cart-item-amount">2</span>
+                                                </div>
+                                            </div>
+                                            <div class="header__cart-item-info-body">
+                                                <span class="header__cart-item-description">
+                                                    Đôi giày tỷ đô
+                                                </span>
+                                                <span class="header__cart-item-remove">
+                                                    Xóa
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="header__cart-item">
+                                        <img class="header__cart-img" src="./assets/img/airmag.png" alt="Air Mag">
+                                        <div class="header__cart-item-info">
+                                            <div class="header__cart-item-info-head">
+                                                <h5 class="header__cart-item-name">
+                                                    Air Mag 
+                                                </h5>
+                                                <div class="header__cart-item-wrap">
+                                                    <span class="header__cart-item-price">1.300.000.000 đ</span>
+                                                    <span class="header__cart-item-multily">x</span>
+                                                    <span class="header__cart-item-amount">2</span>
+                                                </div>
+                                            </div>
+                                            <div class="header__cart-item-info-body">
+                                                <span class="header__cart-item-description">
+                                                    Đôi giày tỷ đô
+                                                </span>
+                                                <span class="header__cart-item-remove">
+                                                    Xóa
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="header__cart-item">
+                                        <img class="header__cart-img" src="./assets/img/airmag.png" alt="Air Mag">
+                                        <div class="header__cart-item-info">
+                                            <div class="header__cart-item-info-head">
+                                                <h5 class="header__cart-item-name">
+                                                    Air Mag
+                                                </h5>
+                                                <div class="header__cart-item-wrap">
+                                                    <span class="header__cart-item-price">1.300.000.000 đ</span>
+                                                    <span class="header__cart-item-multily">x</span>
+                                                    <span class="header__cart-item-amount">2</span>
+                                                </div>
+                                            </div>
+                                            <div class="header__cart-item-info-body">
+                                                <span class="header__cart-item-description">
+                                                    Đôi giày tỷ đô
+                                                </span>
+                                                <span class="header__cart-item-remove">
+                                                    Xóa
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="header__cart-item">
+                                        <img class="header__cart-img" src="./assets/img/airmag.png" alt="Air Mag">
+                                        <div class="header__cart-item-info">
+                                            <div class="header__cart-item-info-head">
+                                                <h5 class="header__cart-item-name">
+                                                    Air Mag
+                                                </h5>
+                                                <div class="header__cart-item-wrap">
+                                                    <span class="header__cart-item-price">1.300.000.000 đ</span>
+                                                    <span class="header__cart-item-multily">x</span>
+                                                    <span class="header__cart-item-amount">2</span>
+                                                </div>
+                                            </div>
+                                            <div class="header__cart-item-info-body">
+                                                <span class="header__cart-item-description">
+                                                    Đôi giày tỷ đô
+                                                </span>
+                                                <span class="header__cart-item-remove">
+                                                    Xóa
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="header__cart-item">
+                                        <img class="header__cart-img" src="./assets/img/airmag.png" alt="Air Mag">
+                                        <div class="header__cart-item-info">
+                                            <div class="header__cart-item-info-head">
+                                                <h5 class="header__cart-item-name">
+                                                    Air Mag
+                                                </h5>
+                                                <div class="header__cart-item-wrap">
+                                                    <span class="header__cart-item-price">1.300.000.000 đ</span>
+                                                    <span class="header__cart-item-multily">x</span>
+                                                    <span class="header__cart-item-amount">2</span>
+                                                </div>
+                                            </div>
+                                            <div class="header__cart-item-info-body">
+                                                <span class="header__cart-item-description">
+                                                    Đôi giày tỷ đô
+                                                </span>
+                                                <span class="header__cart-item-remove">
+                                                    Xóa
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="header__cart-item">
+                                        <img class="header__cart-img" src="./assets/img/airmag.png" alt="Air Mag">
+                                        <div class="header__cart-item-info">
+                                            <div class="header__cart-item-info-head">
+                                                <h5 class="header__cart-item-name">
+                                                    Air Mag
+                                                </h5>
+                                                <div class="header__cart-item-wrap">
+                                                    <span class="header__cart-item-price">1.300.000.000 đ</span>
+                                                    <span class="header__cart-item-multily">x</span>
+                                                    <span class="header__cart-item-amount">2</span>
+                                                </div>
+                                            </div>
+                                            <div class="header__cart-item-info-body">
+                                                <span class="header__cart-item-description">
+                                                    Đôi giày tỷ đô
+                                                </span>
+                                                <span class="header__cart-item-remove">
+                                                    Xóa
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    
+                                    <li class="header__cart-item">
+                                        <img class="header__cart-img" src="./assets/img/airmag.png" alt="Air Mag">
+                                        <div class="header__cart-item-info">
+                                            <div class="header__cart-item-info-head">
+                                                <h5 class="header__cart-item-name">
+                                                    Air Mag
+                                                </h5>
+                                                <div class="header__cart-item-wrap">
+                                                    <span class="header__cart-item-price">1.300.000.000 đ</span>
+                                                    <span class="header__cart-item-multily">x</span>
+                                                    <span class="header__cart-item-amount">2</span>
+                                                </div>
+                                            </div>
+                                            <div class="header__cart-item-info-body">
+                                                <span class="header__cart-item-description">
+                                                    Đôi giày tỷ đô
+                                                </span>
+                                                <span class="header__cart-item-remove">
+                                                    Xóa
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="header__cart-item">
+                                        <img class="header__cart-img" src="./assets/img/airmag.png" alt="Air Mag">
+                                        <div class="header__cart-item-info">
+                                            <div class="header__cart-item-info-head">
+                                                <h5 class="header__cart-item-name">
+                                                    Air Mag
+                                                </h5>
+                                                <div class="header__cart-item-wrap">
+                                                    <span class="header__cart-item-price">1.300.000.000 đ</span>
+                                                    <span class="header__cart-item-multily">x</span>
+                                                    <span class="header__cart-item-amount">2</span>
+                                                </div>
+                                            </div>
+                                            <div class="header__cart-item-info-body">
+                                                <span class="header__cart-item-description">
+                                                    Đôi giày tỷ đô
+                                                </span>
+                                                <span class="header__cart-item-remove">
+                                                    Xóa
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="header__cart-item">
+                                        <img class="header__cart-img" src="./assets/img/airmag.png" alt="Air Mag">
+                                        <div class="header__cart-item-info">
+                                            <div class="header__cart-item-info-head">
+                                                <h5 class="header__cart-item-name">
+                                                    Air Mag
+                                                </h5>
+                                                <div class="header__cart-item-wrap">
+                                                    <span class="header__cart-item-price">1.300.000.000 đ</span>
+                                                    <span class="header__cart-item-multily">x</span>
+                                                    <span class="header__cart-item-amount">2</span>
+                                                </div>
+                                            </div>
+                                            <div class="header__cart-item-info-body">
+                                                <span class="header__cart-item-description">
+                                                    Đôi giày tỷ đô
+                                                </span>
+                                                <span class="header__cart-item-remove">
+                                                    Xóa
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                                <a href="#" class="header__cart-view-cart btn btn--primary">Xem giỏ hàng</a>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+                
+                
+            </div>
+            <ul class="header__sort-bar">
+                <li class="header__sort-item header__sort-item--active"><a href="#" class="header__sort-link">Liên quan</a></li>
+                <li class="header__sort-item"><a href="#" class="header__sort-link">Mới nhất</a></li>
+                <li class="header__sort-item"><a href="#" class="header__sort-link">Bán chạy</a></li>
+                <li class="header__sort-item"><a href="#" class="header__sort-link">Giá</a></li>
+            </ul>
+        </header>
+            <div class="app__container">
+                <div class="grid wide">
+                    <div class="row sm-gutter app__content">
+                        <div class="col l-2 m-0 c-0">
+                            <nav class="category">
+                                <h3 class="category-heading">
+                                    <i class="category-heading-icon fas fa-bars"></i>
+                                    Danh mục
+                                </h3>
+                                <ul class="category-list">
+                                    <li class="category-item category-item--active">
+                                        <a href="" class="category-item__link">
+                                            Nike
+                                        </a>
+                                    </li>
+                                    <li class="category-item">
+                                        <a href="" class="category-item__link">
+                                            Converse
+                                        </a>
+                                    </li>
+                                    <li class="category-item">
+                                        <a href="" class="category-item__link">
+                                            Adidas
+                                        </a>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>  
+                        <div class="col l-10 m-12 c-12">
+                            <div class="home-filter hide-on-mobile-tablet">
+                                <span class="home-filter__label">
+                                    Sắp xếp theo
+                                </span>
+                                <button class="home-filter__btn btn">Phổ biến</button>
+                                <button class="home-filter__btn btn btn--primary">Mới nhất</button>
+                                <button class="home-filter__btn btn">Bán chạy</button>
+                                <div class="select-input">
+                                    <span class="select-input__label">
+                                        Giá
+                                    </span>
+                                    <i class="select-input__icon fas fa-angle-down"></i>
+                                    <!-- Select price -->
+                                    <ul class="select-input__list">
+                                        <li class="select-input__item">
+                                            <a href="#" class="select-input__item-link">Giá thấp đến cao</a>
+                                        </li>
+                                        <li class="select-input__item">
+                                            <a href="#" class="select-input__item-link">Giá cao đến thấp</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="home-filter__pagination">
+                                    <span class="home-filter__pagination-number">
+                                        <span class="home-filter__pagination-current">1</span>/14
+                                    </span>
+                                    <div class="home-filter-pagination-controls">
+                                        <a href="#" class="home-filter-pagination-btn home-filter-pagination-btn-disable">
+                                            <i class="home-filter-pagination-icon fas fa-angle-left"></i>
+                                        </a>
+                                        <a href="#" class="home-filter-pagination-btn">
+                                            <i class="home-filter-pagination-icon fas fa-angle-right"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <nav class="mobile-category">
+                                <ul class="mobile-category__list">
+                                    <li class="mobile-category__item">
+                                        <a href="#" class="mobile-category__item-link">
+                                            Running
+                                        </a>
+                                    </li>
+                                    <li class="mobile-category__item">
+                                        <a href="#" class="mobile-category__item-link">
+                                            Sneaker
+                                        </a>
+                                    </li>
+                                    <li class="mobile-category__item">
+                                        <a href="#" class="mobile-category__item-link">
+                                            Tennis
+                                        </a>
+                                    </li>
+                                    <li class="mobile-category__item">
+                                        <a href="#" class="mobile-category__item-link">
+                                            Boost
+                                        </a>
+                                    </li>
+                                    <li class="mobile-category__item">
+                                        <a href="#" class="mobile-category__item-link">
+                                            Running
+                                        </a>
+                                    </li>
+                                    <li class="mobile-category__item">
+                                        <a href="#" class="mobile-category__item-link">
+                                            Sneaker
+                                        </a>
+                                    </li>
+                                    <li class="mobile-category__item">
+                                        <a href="#" class="mobile-category__item-link">
+                                            Tennis
+                                        </a>
+                                    </li>
+                                    <li class="mobile-category__item">
+                                        <a href="#" class="mobile-category__item-link">
+                                            Boost 
+                                        </a>
+                                    </li>
+                                    <li class="mobile-category__item">
+                                        <a href="#" class="mobile-category__item-link">
+                                            Running
+                                        </a>
+                                    </li>
+                                    <li class="mobile-category__item">
+                                        <a href="#" class="mobile-category__item-link">
+                                            Sneaker
+                                        </a>
+                                    </li>
+                                    <li class="mobile-category__item">
+                                        <a href="#" class="mobile-category__item-link">
+                                            Tennis
+                                        </a>
+                                    </li>
+                                    <li class="mobile-category__item">
+                                        <a href="#" class="mobile-category__item-link">
+                                            Boost
+                                        </a>
+                                    </li>
+                                </ul>
+                            </nav>
+                            <div class="home-product">
+                                <div class="row sm-gutter">
+                                    <div class="col l-2-4 m-4 c-6">
+                                        <a href="#" class="home-product-item">
+                                            <img class="home-product-item__img" src="./assets/img/airmax95-essentinal.png" alt="">
+                                            <h4 class="home-product-item__name">Nike Air Max 95 Essentinal</h4>
+                                            
+                                            <div class="home-product-item__price">
+                                                <div class="home-product-item__price-old">4.500.000đ</div>
+                                                <div class="home-product-item__price-current">4.000.000đ</div>
+                                            </div>
+                                            <div class="home-product-item__action">
+                                                <span class="home-product-item__action-like home-product-item__action-like--liked">
+                                                    <i class="home-product-item__action-like-empty far fa-heart"></i>
+                                                    <i class="home-product-item__action-like-fill fas fa-heart"></i>
+                                                </span>
+                                                <div class="home-product-item__rate ">
+                                                    <i class="home-product-item__rate-star--gold fas fa-star"></i>
+                                                    <i class="home-product-item__rate-star--gold fas fa-star"></i>
+                                                    <i class="home-product-item__rate-star--gold fas fa-star"></i>
+                                                    <i class="home-product-item__rate-star--gold fas fa-star"></i>
+                                                    <i class=" fas fa-star"></i>
+                                                </div>
+                                            </div>
+                                            <div class="home-product-item__origin">
+                                                <span class="home-product-item__brand">Nike</span>
+                                                <span class="home-product-item__origin-name">USA</span>
+                                            </div>
+                                            <div class="home-product-item__favourite">
+                                                <i class="fas fa-check"></i>
+                                                <span>Yêu thích</span>
+                                            </div>
+                                            <div class="home-product-item__sale-off">
+                                                <span class="home-product-item__sale-percent">
+                                                    10%
+                                                </span>
+                                                <span class="home-product-item__sale-label">Giảm</span>
+                                            </div>
+                                        </a>
+                                       
+                                    </div>
+                                    <div class="col l-2-4 m-4 c-6">
+                                        <a href="#" class="home-product-item">
+                                            <img class="home-product-item__img" src="./assets/img/airmax95-essentinal.png" alt="">
+                                            <h4 class="home-product-item__name">Nike Air Max 95 Essentinal</h4>
+                                            
+                                            <div class="home-product-item__price">
+                                                <div class="home-product-item__price-old">4.500.000đ</div>
+                                                <div class="home-product-item__price-current">4.000.000đ</div>
+                                            </div>
+                                            <div class="home-product-item__action">
+                                                <span class="home-product-item__action-like home-product-item__action-like--liked">
+                                                    <i class="home-product-item__action-like-empty far fa-heart"></i>
+                                                    <i class="home-product-item__action-like-fill fas fa-heart"></i>
+                                                </span>
+                                                <div class="home-product-item__rate ">
+                                                    <i class="home-product-item__rate-star--gold fas fa-star"></i>
+                                                    <i class="home-product-item__rate-star--gold fas fa-star"></i>
+                                                    <i class="home-product-item__rate-star--gold fas fa-star"></i>
+                                                    <i class="home-product-item__rate-star--gold fas fa-star"></i>
+                                                    <i class=" fas fa-star"></i>
+                                                </div>
+                                            </div>
+                                            <div class="home-product-item__origin">
+                                                <span class="home-product-item__brand">Nike</span>
+                                                <span class="home-product-item__origin-name">USA</span>
+                                            </div>
+                                            <div class="home-product-item__favourite">
+                                                <i class="fas fa-check"></i>
+                                                <span>Yêu thích</span>
+                                            </div>
+                                            <div class="home-product-item__sale-off">
+                                                <span class="home-product-item__sale-percent">
+                                                    10%
+                                                </span>
+                                                <span class="home-product-item__sale-label">Giảm</span>
+                                            </div>
+                                        </a>
+                                       
+                                    </div>
+                                    <div class="col l-2-4 m-4 c-6">
+                                        <a href="#" class="home-product-item">
+                                            <img class="home-product-item__img" src="./assets/img/airmax95-essentinal.png" alt="">
+                                            <h4 class="home-product-item__name">Nike Air Max 95 Essentinal</h4>
+                                            
+                                            <div class="home-product-item__price">
+                                                <div class="home-product-item__price-old">4.500.000đ</div>
+                                                <div class="home-product-item__price-current">4.000.000đ</div>
+                                            </div>
+                                            <div class="home-product-item__action">
+                                                <span class="home-product-item__action-like home-product-item__action-like--liked">
+                                                    <i class="home-product-item__action-like-empty far fa-heart"></i>
+                                                    <i class="home-product-item__action-like-fill fas fa-heart"></i>
+                                                </span>
+                                                <div class="home-product-item__rate ">
+                                                    <i class="home-product-item__rate-star--gold fas fa-star"></i>
+                                                    <i class="home-product-item__rate-star--gold fas fa-star"></i>
+                                                    <i class="home-product-item__rate-star--gold fas fa-star"></i>
+                                                    <i class="home-product-item__rate-star--gold fas fa-star"></i>
+                                                    <i class=" fas fa-star"></i>
+                                                </div>
+                                            </div>
+                                            <div class="home-product-item__origin">
+                                                <span class="home-product-item__brand">Nike</span>
+                                                <span class="home-product-item__origin-name">USA</span>
+                                            </div>
+                                            <div class="home-product-item__favourite">
+                                                <i class="fas fa-check"></i>
+                                                <span>Yêu thích</span>
+                                            </div>
+                                            <div class="home-product-item__sale-off">
+                                                <span class="home-product-item__sale-percent">
+                                                    10%
+                                                </span>
+                                                <span class="home-product-item__sale-label">Giảm</span>
+                                            </div>
+                                        </a>
+                                       
+                                    </div>
+                                    <div class="col l-2-4 m-4 c-6">
+                                        <a href="#" class="home-product-item">
+                                            <img class="home-product-item__img" src="./assets/img/airmax95-essentinal.png" alt="">
+                                            <h4 class="home-product-item__name">Nike Air Max 95 Essentinal</h4>
+                                            
+                                            <div class="home-product-item__price">
+                                                <div class="home-product-item__price-old">4.500.000đ</div>
+                                                <div class="home-product-item__price-current">4.000.000đ</div>
+                                            </div>
+                                            <div class="home-product-item__action">
+                                                <span class="home-product-item__action-like home-product-item__action-like--liked">
+                                                    <i class="home-product-item__action-like-empty far fa-heart"></i>
+                                                    <i class="home-product-item__action-like-fill fas fa-heart"></i>
+                                                </span>
+                                                <div class="home-product-item__rate ">
+                                                    <i class="home-product-item__rate-star--gold fas fa-star"></i>
+                                                    <i class="home-product-item__rate-star--gold fas fa-star"></i>
+                                                    <i class="home-product-item__rate-star--gold fas fa-star"></i>
+                                                    <i class="home-product-item__rate-star--gold fas fa-star"></i>
+                                                    <i class=" fas fa-star"></i>
+                                                </div>
+                                            </div>
+                                            <div class="home-product-item__origin">
+                                                <span class="home-product-item__brand">Nike</span>
+                                                <span class="home-product-item__origin-name">USA</span>
+                                            </div>
+                                            <div class="home-product-item__favourite">
+                                                <i class="fas fa-check"></i>
+                                                <span>Yêu thích</span>
+                                            </div>
+                                            <div class="home-product-item__sale-off">
+                                                <span class="home-product-item__sale-percent">
+                                                    10%
+                                                </span>
+                                                <span class="home-product-item__sale-label">Giảm</span>
+                                            </div>
+                                        </a>
+                                       
+                                    </div>
+                                    <div class="col l-2-4 m-4 c-6">
+                                        <a href="#" class="home-product-item">
+                                            <img class="home-product-item__img" src="./assets/img/airmax95-essentinal.png" alt="">
+                                            <h4 class="home-product-item__name">Nike Air Max 95 Essentinal</h4>
+                                            
+                                            <div class="home-product-item__price">
+                                                <div class="home-product-item__price-old">4.500.000đ</div>
+                                                <div class="home-product-item__price-current">4.000.000đ</div>
+                                            </div>
+                                            <div class="home-product-item__action">
+                                                <span class="home-product-item__action-like home-product-item__action-like--liked">
+                                                    <i class="home-product-item__action-like-empty far fa-heart"></i>
+                                                    <i class="home-product-item__action-like-fill fas fa-heart"></i>
+                                                </span>
+                                                <div class="home-product-item__rate ">
+                                                    <i class="home-product-item__rate-star--gold fas fa-star"></i>
+                                                    <i class="home-product-item__rate-star--gold fas fa-star"></i>
+                                                    <i class="home-product-item__rate-star--gold fas fa-star"></i>
+                                                    <i class="home-product-item__rate-star--gold fas fa-star"></i>
+                                                    <i class=" fas fa-star"></i>
+                                                </div>
+                                            </div>
+                                            <div class="home-product-item__origin">
+                                                <span class="home-product-item__brand">Nike</span>
+                                                <span class="home-product-item__origin-name">USA</span>
+                                            </div>
+                                            <div class="home-product-item__favourite">
+                                                <i class="fas fa-check"></i>
+                                                <span>Yêu thích</span>
+                                            </div>
+                                            <div class="home-product-item__sale-off">
+                                                <span class="home-product-item__sale-percent">
+                                                    10%
+                                                </span>
+                                                <span class="home-product-item__sale-label">Giảm</span>
+                                            </div>
+                                        </a>
+                                       
+                                    </div>
+                                    <div class="col l-2-4 m-4 c-6">
+                                        <a href="#" class="home-product-item">
+                                            <img class="home-product-item__img" src="./assets/img/airmax95-essentinal.png" alt="">
+                                            <h4 class="home-product-item__name">Nike Air Max 95 Essentinal</h4>
+                                            
+                                            <div class="home-product-item__price">
+                                                <div class="home-product-item__price-old">4.500.000đ</div>
+                                                <div class="home-product-item__price-current">4.000.000đ</div>
+                                            </div>
+                                            <div class="home-product-item__action">
+                                                <span class="home-product-item__action-like home-product-item__action-like--liked">
+                                                    <i class="home-product-item__action-like-empty far fa-heart"></i>
+                                                    <i class="home-product-item__action-like-fill fas fa-heart"></i>
+                                                </span>
+                                                <div class="home-product-item__rate ">
+                                                    <i class="home-product-item__rate-star--gold fas fa-star"></i>
+                                                    <i class="home-product-item__rate-star--gold fas fa-star"></i>
+                                                    <i class="home-product-item__rate-star--gold fas fa-star"></i>
+                                                    <i class="home-product-item__rate-star--gold fas fa-star"></i>
+                                                    <i class=" fas fa-star"></i>
+                                                </div>
+                                            </div>
+                                            <div class="home-product-item__origin">
+                                                <span class="home-product-item__brand">Nike</span>
+                                                <span class="home-product-item__origin-name">USA</span>
+                                            </div>
+                                            <div class="home-product-item__favourite">
+                                                <i class="fas fa-check"></i>
+                                                <span>Yêu thích</span>
+                                            </div>
+                                            <div class="home-product-item__sale-off">
+                                                <span class="home-product-item__sale-percent">
+                                                    10%
+                                                </span>
+                                                <span class="home-product-item__sale-label">Giảm</span>
+                                            </div>
+                                        </a>
+                                       
+                                    </div>
+                                    <div class="col l-2-4 m-4 c-6">
+                                        <a href="#" class="home-product-item">
+                                            <img class="home-product-item__img" src="./assets/img/airmax95-essentinal.png" alt="">
+                                            <h4 class="home-product-item__name">Nike Air Max 95 Essentinal</h4>
+                                            
+                                            <div class="home-product-item__price">
+                                                <div class="home-product-item__price-old">4.500.000đ</div>
+                                                <div class="home-product-item__price-current">4.000.000đ</div>
+                                            </div>
+                                            <div class="home-product-item__action">
+                                                <span class="home-product-item__action-like home-product-item__action-like--liked">
+                                                    <i class="home-product-item__action-like-empty far fa-heart"></i>
+                                                    <i class="home-product-item__action-like-fill fas fa-heart"></i>
+                                                </span>
+                                                <div class="home-product-item__rate ">
+                                                    <i class="home-product-item__rate-star--gold fas fa-star"></i>
+                                                    <i class="home-product-item__rate-star--gold fas fa-star"></i>
+                                                    <i class="home-product-item__rate-star--gold fas fa-star"></i>
+                                                    <i class="home-product-item__rate-star--gold fas fa-star"></i>
+                                                    <i class=" fas fa-star"></i>
+                                                </div>
+                                            </div>
+                                            <div class="home-product-item__origin">
+                                                <span class="home-product-item__brand">Nike</span>
+                                                <span class="home-product-item__origin-name">USA</span>
+                                            </div>
+                                            <div class="home-product-item__favourite">
+                                                <i class="fas fa-check"></i>
+                                                <span>Yêu thích</span>
+                                            </div>
+                                            <div class="home-product-item__sale-off">
+                                                <span class="home-product-item__sale-percent">
+                                                    10%
+                                                </span>
+                                                <span class="home-product-item__sale-label">Giảm</span>
+                                            </div>
+                                        </a>
+                                       
+                                    </div>
+                                    <div class="col l-2-4 m-4 c-6">
+                                        <a href="#" class="home-product-item">
+                                            <img class="home-product-item__img" src="./assets/img/airmax95-essentinal.png" alt="">
+                                            <h4 class="home-product-item__name">Nike Air Max 95 Essentinal</h4>
+                                            
+                                            <div class="home-product-item__price">
+                                                <div class="home-product-item__price-old">4.500.000đ</div>
+                                                <div class="home-product-item__price-current">4.000.000đ</div>
+                                            </div>
+                                            <div class="home-product-item__action">
+                                                <span class="home-product-item__action-like home-product-item__action-like--liked">
+                                                    <i class="home-product-item__action-like-empty far fa-heart"></i>
+                                                    <i class="home-product-item__action-like-fill fas fa-heart"></i>
+                                                </span>
+                                                <div class="home-product-item__rate ">
+                                                    <i class="home-product-item__rate-star--gold fas fa-star"></i>
+                                                    <i class="home-product-item__rate-star--gold fas fa-star"></i>
+                                                    <i class="home-product-item__rate-star--gold fas fa-star"></i>
+                                                    <i class="home-product-item__rate-star--gold fas fa-star"></i>
+                                                    <i class=" fas fa-star"></i>
+                                                </div>
+                                            </div>
+                                            <div class="home-product-item__origin">
+                                                <span class="home-product-item__brand">Nike</span>
+                                                <span class="home-product-item__origin-name">USA</span>
+                                            </div>
+                                            <div class="home-product-item__favourite">
+                                                <i class="fas fa-check"></i>
+                                                <span>Yêu thích</span>
+                                            </div>
+                                            <div class="home-product-item__sale-off">
+                                                <span class="home-product-item__sale-percent">
+                                                    10%
+                                                </span>
+                                                <span class="home-product-item__sale-label">Giảm</span>
+                                            </div>
+                                        </a>
+                                       
+                                    </div>
+                                    <div class="col l-2-4 m-4 c-6">
+                                        <a href="#" class="home-product-item">
+                                            <img class="home-product-item__img" src="./assets/img/airmax95-essentinal.png" alt="">
+                                            <h4 class="home-product-item__name">Nike Air Max 95 Essentinal</h4>
+                                            
+                                            <div class="home-product-item__price">
+                                                <div class="home-product-item__price-old">4.500.000đ</div>
+                                                <div class="home-product-item__price-current">4.000.000đ</div>
+                                            </div>
+                                            <div class="home-product-item__action">
+                                                <span class="home-product-item__action-like home-product-item__action-like--liked">
+                                                    <i class="home-product-item__action-like-empty far fa-heart"></i>
+                                                    <i class="home-product-item__action-like-fill fas fa-heart"></i>
+                                                </span>
+                                                <div class="home-product-item__rate ">
+                                                    <i class="home-product-item__rate-star--gold fas fa-star"></i>
+                                                    <i class="home-product-item__rate-star--gold fas fa-star"></i>
+                                                    <i class="home-product-item__rate-star--gold fas fa-star"></i>
+                                                    <i class="home-product-item__rate-star--gold fas fa-star"></i>
+                                                    <i class=" fas fa-star"></i>
+                                                </div>
+                                            </div>
+                                            <div class="home-product-item__origin">
+                                                <span class="home-product-item__brand">Nike</span>
+                                                <span class="home-product-item__origin-name">USA</span>
+                                            </div>
+                                            <div class="home-product-item__favourite">
+                                                <i class="fas fa-check"></i>
+                                                <span>Yêu thích</span>
+                                            </div>
+                                            <div class="home-product-item__sale-off">
+                                                <span class="home-product-item__sale-percent">
+                                                    10%
+                                                </span>
+                                                <span class="home-product-item__sale-label">Giảm</span>
+                                            </div>
+                                        </a>
+                                       
+                                    </div>
+                                    <div class="col l-2-4 m-4 c-6">
+                                        <a href="#" class="home-product-item">
+                                            <img class="home-product-item__img" src="./assets/img/airmax95-essentinal.png" alt="">
+                                            <h4 class="home-product-item__name">Nike Air Max 95 Essentinal</h4>
+                                            
+                                            <div class="home-product-item__price">
+                                                <div class="home-product-item__price-old">4.500.000đ</div>
+                                                <div class="home-product-item__price-current">4.000.000đ</div>
+                                            </div>
+                                            <div class="home-product-item__action">
+                                                <span class="home-product-item__action-like home-product-item__action-like--liked">
+                                                    <i class="home-product-item__action-like-empty far fa-heart"></i>
+                                                    <i class="home-product-item__action-like-fill fas fa-heart"></i>
+                                                </span>
+                                                <div class="home-product-item__rate ">
+                                                    <i class="home-product-item__rate-star--gold fas fa-star"></i>
+                                                    <i class="home-product-item__rate-star--gold fas fa-star"></i>
+                                                    <i class="home-product-item__rate-star--gold fas fa-star"></i>
+                                                    <i class="home-product-item__rate-star--gold fas fa-star"></i>
+                                                    <i class=" fas fa-star"></i>
+                                                </div>
+                                            </div>
+                                            <div class="home-product-item__origin">
+                                                <span class="home-product-item__brand">Nike</span>
+                                                <span class="home-product-item__origin-name">USA</span>
+                                            </div>
+                                            <div class="home-product-item__favourite">
+                                                <i class="fas fa-check"></i>
+                                                <span>Yêu thích</span>
+                                            </div>
+                                            <div class="home-product-item__sale-off">
+                                                <span class="home-product-item__sale-percent">
+                                                    10%
+                                                </span>
+                                                <span class="home-product-item__sale-label">Giảm</span>
+                                            </div>
+                                        </a>
+                                       
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                            <ul class="pagination home-product__pagination">
+                                <li class="pagination-item">
+                                    <i class="pagination-item__icon fas fa-angle-left"></i>
+                                </li>
+                                <li class="pagination-item pagination-item--active">
+                                    <a class="pagination-item__link" href="#">1</a>
+                                </li>
+                                <li class="pagination-item">
+                                    <a class="pagination-item__link" href="#">2</a>
+                                </li>
+                                <li class="pagination-item">
+                                    <a class="pagination-item__link" href="#">3</a>
+                                </li>
+                                <li class="pagination-item">
+                                    <a class="pagination-item__link" href="#">4</a>
+                                </li>
+                                <li class="pagination-item">
+                                    <a class="pagination-item__link" href="#">5</a>
+                                </li>
+                                <li class="pagination-item">
+                                    <a class="pagination-item__link" href="#">6</a>
+                                </li>
+                                <li class="pagination-item">
+                                    <a class="pagination-item__link" href="#">...</a>
+                                </li>
+                                <li class="pagination-item">
+                                    <a class="pagination-item__link" href="#">14</a>
+                                </li>
+                                <li class="pagination-item">
+                                    <i class="pagination-item__icon fas fa-angle-right"></i>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div> 
+            </div>
+    
+            <footer class="footer">
+                <div class="grid wide footer__container">
+                    <div class="row">
+                        <div class="col l-2-4 m-4 c-6">
+                            <h3 class="footer__heading">
+                                Chăm sóc khách hàng
+                            </h3>
+                            <ul class="footer__list">
+                                <li class="footer__item">
+                                    <a href="#" class="footer__item-link">Trung tâm trợ giúp</a>
+                                </li>
+                                <li class="footer__item">
+                                    <a href="#" class="footer__item-link">Sneaker_Shop</a>
+                                </li>
+                                <li class="footer__item">
+                                    <a href="#" class="footer__item-link">Hướng dẫn mua hàng</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col l-2-4 m-4 c-6">
+                            <h3 class="footer__heading">
+                                Giới thiệu
+                            </h3>
+                            <ul class="footer__list">
+                                <li class="footer__item">
+                                    <a href="#" class="footer__item-link">
+                                        Giới thiệu
+                                    </a>
+                                </li>
+                                <li class="footer__item">
+                                    <a href="#" class="footer__item-link">
+                                        Tuyển dụng
+                                    </a>
+                                </li>
+                                <li class="footer__item">
+                                    <a href="#" class="footer__item-link">
+                                        Điều khoản
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col l-2-4 m-4 c-6">
+                            <h3 class="footer__heading">
+                                Danh mục
+                            </h3>
+                            <ul class="footer__list">
+                                <li class="footer__item">
+                                    <a href="#" class="footer__item-link">
+                                        Nike
+                                    </a>
+                                </li>
+                                <li class="footer__item">
+                                    <a href="#" class="footer__item-link">
+                                        Adidas
+                                    </a>
+                                </li>
+                                <li class="footer__item">
+                                    <a href="#" class="footer__item-link">
+                                       Converse
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col l-2-4 m-4 c-6">
+                            <h3 class="footer__heading">
+                                Về chúng tôi
+                            </h3>
+                            <ul class="footer__list">
+                                <li class="footer__item">
+                                    <a href="#" class="footer__item-link">
+                                        <i class="footer__item-icon fab fa-facebook-square"></i>
+                                        Facebook
+                                    </a>
+                                </li>
+                                <li class="footer__item">
+                                    <a href="#" class="footer__item-link">
+                                        <i class="footer__item-icon fab fa-instagram"></i>
+                                        Instagram
+                                    </a>
+                                </li>
+                                <li class="footer__item">
+                                    <a href="#" class="footer__item-link">
+                                        <i class="footer__item-icon fab fa-linkedin-in"></i>
+                                        Linkedin
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col l-2-4 m-8 c-12">
+                            <h3 class="footer__heading">
+                                Vào cửa hàng trên ứng dụng
+                            </h3>
+                            <div class="footer__dowload">
+                                <img src="./assets/img/QR_code.png" alt="QR code" class="footer__dowload-qr">
+                                <div class="footer__dowload-app">
+                                    <a href="#" class="footer__dowload-app-link">
+                                        <img src="./assets/img/appstore.png" alt="AppStore code" class="footer__dowload-appstore">
+                                    </a>
+                                    <a href="#" class="footer__dowload-app-link">
+                                        <img src="./assets/img/ggplay.png" alt="Google play" class="footer__dowaload-ggplay">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+    </div>
+    <!-- Modal layout -->
+    <!-- <div class="modal">
+        <div class="modal__overlay"></div>
+        <div class="modal__body"> -->
+            <!-- Auth form 
+            <div class="auth-form">
+                <div class="auth-form__container">
+                    <div class="auth-from__header">
+                        <h3 class="auth-form__heading">Đăng ký</h3>
+                        <span class="auth-form__switch-btn">Đăng nhập</span> 
+                    </div>
+                    <div class="auth-form__form">
+                        <div class="auth-form__group">
+                            <input type="text" class="auth-form__input" placeholder="Email">
+                        </div>
+                        <div class="auth-form__group">
+                            <input type="password" class="auth-form__input" placeholder="Password">
+                        </div>
+                        <div class="auth-form__group">
+                            <input type="password" class="auth-form__input" placeholder="Nhập lại Password">
+                        </div>
+                    </div>
+                    
+                    <div class="auth-form__article">
+                        <p class="auth-form_policy-text">
+                                Đồng ý với điều khoản mua bán của Sneaker_Shop
+                        </p>
+                    </div>
+                    <div class="auth-form__contols">
+                        <button class="btn auth-form__contols--back btn-normal">TRỞ LẠI</button>
+                        <button class="btn btn--primary btn-normal">ĐĂNG KÝ</button>
+                    </div>
+                </div>
+                <div class="auth-form__social">
+                    <a href="#" class="auth-form__social--fb btn btn--size-s btn--with-icon">
+                        <i class="auth-form__socia-icon fab fa-facebook-square"></i>
+                        <span class="auth-form__social-title">
+                            Đăng nhập với Facebook
+                        </span>
+                    </a>
+                    <a href="#" class="auth-form__social--gg btn btn--with-icon">
+                        <i class="auth-form__socia-icon fab fa-google"></i>
+                        <span class="auth-form__social-title">
+                            Đăng nhập với Google
+                        </span>
+                        
+                    </a>
+
+                </div>
+            </div> -->
+            <!-- Login form  -->
+            <!-- <div class="auth-form">
+                <div class="auth-form__container">
+                    <div class="auth-from__header">
+                        <h3 class="auth-form__heading">Đăng nhập</h3>
+                        <span class="auth-form__switch-btn">Đăng ký</span> 
+                    </div>
+                    <div class="auth-form__form">
+                        <div class="auth-form__group">
+                            <input type="text" class="auth-form__input" placeholder="Email">
+                        </div>
+                        <div class="auth-form__group">
+                            <input type="password" class="auth-form__input" placeholder="Password">
+                        </div>
+                    </div>
+                    <div class="auth-form__service">
+                        <div class="auth-form__help">
+                            <a href="#" class="auth-form__help-link auth-form__help-link--color-left">
+                                Quên mật khẩu ?   
+                                <span class="auth-form__help--sperate"></span>
+                            </a>
+                            <a href="#" class="auth-form__help-link auth-form__help-link--color">
+                                Trợ Giúp ?   
+                            </a>
+                        </div>
+                    </div>
+                    <div class="auth-form__contols">
+                        <button class="btn auth-form__contols--back btn-normal">TRỞ LẠI</button>
+                        <button class="btn btn--primary btn-normal">ĐĂNG NHẬP</button>
+                    </div>
+                </div>
+                <div class="auth-form__social">
+                    <a href="#" class="auth-form__social--fb btn btn--size-s btn--with-icon">
+                        <i class="auth-form__socia-icon fab fa-facebook-square"></i>
+                        <span class="auth-form__social-title">
+                            Đăng nhập với Facebook
+                        </span>
+                    </a>
+                    <a href="#" class="auth-form__social--gg btn btn--with-icon">
+                        <i class="auth-form__socia-icon fab fa-google"></i>
+                        <span class="auth-form__social-title">
+                            Đăng nhập với Google
+                        </span>
+                        
+                    </a>
+
+                </div>
+            </div>
+        </div> -->
+    <!-- </div> -->
+</body>
+</html>
